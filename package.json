@@ -1,0 +1,20 @@
+{
+  "name": "cryptocurrency-rate-graph-v2",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "(cd ./frontend && npm install) && (cd ../backend && npm install)",
+    "start": "cd ./backend && npm run start",
+    "dev": "cd ./backend && npm run dev",
+    "clean": "(cd ./frontend && npm run clean) && (cd ../backend && npm run clean)",
+    "build": "cd ./frontend && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@ssh.dev.azure.com:v3/learn-cloud-demo/cryptocurrency-rate-graph/cryptocurrency-rate-graph-v2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
