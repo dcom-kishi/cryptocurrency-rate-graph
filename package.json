@@ -1,8 +1,7 @@
 {
-  "name": "cryptocurrency-rate-graph-v2",
+  "name": "cryptocurrency-rate-graph",
   "version": "1.0.0",
-  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
-  "main": "index.js",
+  "description": "A sample that displays a graph of virtual currency rates.",
   "scripts": {
     "postinstall": "(cd ./frontend && npm install) && (cd ../backend && npm install)",
     "start": "cd ./backend && npm run start",
@@ -12,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@ssh.dev.azure.com:v3/learn-cloud-demo/cryptocurrency-rate-graph/cryptocurrency-rate-graph-v2"
+    "url": "git@github.com:dcom-kishi/cryptocurrency-rate-graph.git"
   },
   "keywords": [],
   "author": "",
